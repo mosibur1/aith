@@ -351,7 +351,7 @@ async function runCycle() {
 
 async function run() {
   const terminalWidth = process.stdout.columns || 80;
-  cfonts.say('NT EXHAUST', {
+  cfonts.say('MRPTech', {
     font: 'block',
     align: 'center',
     colors: ['cyan', 'magenta'],
@@ -360,7 +360,7 @@ async function run() {
     lineHeight: 1,
     space: true
   });
-  console.log(gradient.retro(centerText('=== Telegram Channel 🚀 : NT Exhaust (@NTExhaust) ===', terminalWidth)));
+  console.log(gradient.retro(centerText('=== Telegram Channel 🚀 : MRPTech (@mrptechofficial) ===', terminalWidth)));
   console.log(gradient.retro(centerText('✪ BOT AITHEREUM AUTO CHECK-IN ✪', terminalWidth)));
   console.log('\n');
   await initializeConfig();
